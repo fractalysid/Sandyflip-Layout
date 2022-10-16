@@ -24,4 +24,4 @@ using it in the utility layer
 - Right thumb: default layer-toggle timings
 - Left thumb: "Balanced" with only 125ms tapping term for quick access while typing text
 
-![Sandyflip_Layout](https://github.com/fractalysid/Notwive/blob/main/Notwive.png?raw=true)
+![Sandyflip_Layout](https://github.com/fractalysid/Sandyflip-Layout/blob/main/Sandyflip.png?raw=true)
