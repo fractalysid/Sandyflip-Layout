@@ -234,7 +234,7 @@
 		bindings = <
 		&kp ESC &kp PRINTSCREEN &caps_word &kp CAPS &kp INSERT          &kp PAGE_UP &kp HOME &kp END &kp DEL &kp BKSP
 		&kp TAB &sk LALT &sk LCTRL &sk LSHIFT &none                     &kp LA(TAB) &kp LEFT &kp DOWN &kp UP &kp RIGHT
-		&kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &kp LC(LS(Z))           &kp PAGE_DOWN &none &kp LC(LA(UP)) &kp LC(LA(DOWN)) &none
+		&kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &kp LC(LS(Z))           &kp PAGE_DOWN &none &kp LC(LA(DOWN)) &kp LC(LA(UP)) &none
 					                     &trans &trans &trans           &trans &trans &none
 		>;
 		};
