@@ -295,7 +295,7 @@
 		bindings = <
 		&kp Q &kp W &kp E &kp R  &kp T 						&kp Y &kp U  &kp I &kp O &kp P
 		&kp A &kp S &kp D &kp F &kp G 			        	&kp H &kp J &kp K &kp L &kp BKSP
-		&kp Z &kp X &kp C &kp V &kp B				        &kp M &kp N &kp CMMA &kp DOT &mt LSHFT IT_MINUS
+		&kp Z &kp X &kp C &kp V &kp B	                    &kp M &m_right LGUI N &m_right LALT CMMA &m_right LCTRL DOT &mt LSHFT IT_MINUS
           				&kp SPC &none &none   		        &none &none &kp RET
 		>;
 		};
