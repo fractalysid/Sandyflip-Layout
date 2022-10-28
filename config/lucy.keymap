@@ -184,19 +184,19 @@
             //flavor = "tap-unless-interrupted";
             flavor = "tap-preferred";
             tapping-term-ms = <175>;
-            quick-tap-ms = <125>;
+            quick-tap-ms = <80>;        // 125
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29>;    // <---[[right-hand keys]]
         };
 
-        m_right: right_mods {
+        m_right: mods_right {
             compatible = "zmk,behavior-hold-tap";
             label = "MODS_RIGHT";
             #binding-cells = <2>;
             //flavor = "tap-unless-interrupted";
             flavor = "tap-preferred";
             tapping-term-ms = <175>;
-            quick-tap-ms = <125>;
+            quick-tap-ms = <80>;        // 125
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24>;    // <---[[left-hand keys]]
        };
@@ -253,9 +253,9 @@
 // 3 - SYMBOLS LAYER
             symbols_layer {
 		bindings = <
-		&none &none &none &none &none                                 &none &none &none &none &none
-		&none &none &none &none &none                                 &none &none &none &none &none
-		&none &none &none &none &none                                 &none &none &none &none &none
+		&trans &trans &trans &trans &trans                                 &trans &trans &trans &trans &trans
+		&trans &trans &trans &trans &trans                                 &trans &trans &trans &trans &trans
+		&trans &trans &trans &trans &trans                                 &trans &trans &trans &trans &trans
 			        &trans &trans &trans                              &trans &trans &trans
 		>;
 		};
@@ -284,8 +284,8 @@
 		    keyboard_layer {
 		bindings = <
 		&reset  &bootloader &none &none &out OUT_USB 			        &out OUT_BLE &none   &none   &bootloader  &reset
-		&none &none &bt BT_PRV &bt BT_NXT &bt BT_CLR  			        &none &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
-		&none  &none &none &none &none 				                    &none &none &none &none &bt BT_SEL 4
+		&none &none &bt BT_PRV &bt BT_NXT &bt BT_CLR  			        &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
+		&none &none &none &none &none 				                    &none &none &none &none &bt BT_SEL 4
 				            	&trans &trans &trans  					&trans &trans &trans
 		>;
 		};
